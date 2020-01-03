@@ -1,9 +1,8 @@
-<title>shoosh-jetpack</title>
 <?php
 /**
  * Plugin Name: Shoosh, Jetpack!
  * Plugin URI: https://github.com/versluis/shoosh-jetpack
- * Description: Starting Point for Plugin Development without an Admin Page
+ * Description: Disable annying JetPack Upsell Nags in the Admin Interface
  * Version: 1.0
  * Author: Jay Versluis
  * Author URI: https://wpguru.tv
