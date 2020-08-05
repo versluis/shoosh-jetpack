@@ -34,10 +34,14 @@ https://wpguru.co.uk/2017/11/how-to-disable-jetpack-nag-messages-in-the-wordpres
 
 function guru_shoosh_jp () {
 	
-	// courtesy of Matt Medeiros
-	// https://mattreport.com/disable-jetpack-upsell-ads/
-	add_filter( 'jetpack_just_in_time_msgs', '__return_false' );
+	// this is a dummy function just so that we get the plugin enabled
+	// nothing is happening here
 }
 add_action ('wp_footer', 'guru_shoosh_jp');
+
+// this is where the magic happens
+// courtesy of Matt Medeiros
+// https://mattreport.com/disable-jetpack-upsell-ads/
+add_filter( 'jetpack_just_in_time_msgs', '_return_false' );
 
 ?>
